@@ -1,0 +1,43 @@
+{
+  "name": "auth-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@emoji-mart/data": "^1.2.1",
+    "@emoji-mart/react": "^1.1.1",
+    "@pubnub/react-chat-components": "^0.34.0",
+    "@types/pubnub": "^7.4.2",
+    "@types/uuid": "^9.0.8",
+    "emoji-mart": "^5.6.0",
+    "next": "14.2.4",
+    "pubnub": "^8.2.3",
+    "pubnub-react": "^3.0.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "tw-elements-react": "^1.0.0-alpha-end",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "postcss": "^8",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.1.6"
+  }
+}
